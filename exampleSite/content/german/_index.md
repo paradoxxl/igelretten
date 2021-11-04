@@ -2,12 +2,12 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/slider-bg.jpg"
+  bg_image: "images/bg.png"
   bg_overlay: true
-  title: "A Digital Marketing <br/> & Design Agency"
-  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title: "Igel <br/> Retten"
+  content: "Hilf auch Du den stachligen Insektenvertilgern!"
   button:
-    enable: true
+    enable: false
     label: "Discover Our Project"
     link: "project"
 
