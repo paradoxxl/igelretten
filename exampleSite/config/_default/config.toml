@@ -1,4 +1,5 @@
 baseURL = "https://igelretten.netlify.app"
+defaultContentLanguage = 'de'
 disableLanguages = ["en"]
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
