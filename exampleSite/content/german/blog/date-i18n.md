@@ -1,8 +1,8 @@
 ---
-title: Pretty-print dates
+title: Igelhaus bauen
 date: 2021-04-01T00:00:00.000+01:00
 author: John Doe
-image: images/blog/blog-post-1.jpg
+image: "/images/rohbau.png"
 bg_image: images/feature-bg.jpg
 categories:
 - Technical Assistance
