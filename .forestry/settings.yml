@@ -7,23 +7,13 @@ sections:
 - type: heading
   label: Homepage
 - type: document
-  path: exampleSite/content/english/_index.md
-  label: Homepage (en)
-- type: document
-  path: exampleSite/content/french/_index.md
-  label: Homepage (fr)
+  path: exampleSite/content/german/_index.md
+  label: Homepage (de)
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
+  path: exampleSite/content/german/blog
+  label: Post (de)
   create: documents
   match: "**/*"
   templates:
@@ -31,15 +21,8 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  path: exampleSite/content/german/author
+  label: Author (de)
   create: documents
   match: "**/*"
   templates:
@@ -47,15 +30,8 @@ sections:
 - type: heading
   label: Project
 - type: directory
-  path: exampleSite/content/english/project
-  label: Project (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: directory
-  path: exampleSite/content/french/project
-  label: Project (fr)
+  path: exampleSite/content/german/project
+  label: Project (de)
   create: documents
   match: "**/*"
   templates:
@@ -63,27 +39,14 @@ sections:
 - type: heading
   label: Other Pages
 - type: directory
-  path: exampleSite/content/english
-  label: Other Pages (en)
+  path: exampleSite/content/german
+  label: Other Pages (de)
   create: documents
   match: "*"
   exclude: _index.md
 - type: directory
-  path: exampleSite/content/french
-  label: Other Pages (fr)
-  create: documents
-  match: "*"
-  exclude: _index.md
-- type: directory
-  path: exampleSite/content/english
-  label: All Pages (en)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  path: exampleSite/content/german
+  label: All Pages (de)
   create: all
   match: "**/*"
   templates:
@@ -103,11 +66,8 @@ sections:
   path: exampleSite/config/_default/languages.toml
   label: Languages
 - type: document
-  path: exampleSite/config/_default/menus.en.toml
-  label: Menu (en)
-- type: document
-  path: exampleSite/config/_default/menus.fr.toml
-  label: Menu (fr)
+  path: exampleSite/config/_default/menus.de.toml
+  label: Menu (de)
 - type: directory
   path: exampleSite/i18n
   label: i18n Translations
