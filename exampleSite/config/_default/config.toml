@@ -1,4 +1,4 @@
-baseURL = "https://igelretten.netlify.com"
+baseURL = "https://igelretten.netlify.app"
 disableLanguages = []
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
