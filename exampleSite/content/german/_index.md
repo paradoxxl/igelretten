@@ -23,25 +23,30 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  bg_image: "images/helfer-bg.png"
+  title: "Helfer werden!"
+  content: " Wir suchen Helfer für die grösste Igelstation der Schweiz: füttern, shoppen geben, misten!
 
+• Keine Vorkenntnisse nötig
+• Wir arbeiten Hand in Hand, ehrenamtlich
+• Dein Einsatz ist flexibel planbar (vormittags auch Wochenende) 
+• Regelmässige Einsätze sind erwünscht
+• Dein Lohn ist die Rettung vieler Igel
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Hast Du im Haus oder im Gartenhaus Platz für einen Igel? 
+Wir suchen immer wieder Winterquartiere für notleidende Igel!
 
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
   "
   button:
     enable: true
-    label: "View Works"
+    label: "Weitere Infos"
     link: "project"
 
 
 ############################# Service ############################
 service:
-  enable: true
+  enable: false
   # service content comes from "service.md" file
 
 
@@ -59,7 +64,7 @@ cta:
 ############################# Funfacts ###############################
 funfacts:
   enable: true
-  title: "Fun Facts About Us"
+  title: "Fakten über Igel"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:
   # funfacts item loop
@@ -86,20 +91,20 @@ funfacts:
   # testimonial item loop
   - name: "Raymond Roy"
     image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    designation: "Igelstation-Helfer"
+    content: "Ich helfe Igeln weil sie durch uns ihren Lebensraum verlieren"
 
   # testimonial item loop
   - name: "Randi Renin"
     image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    designation: "Spender"
+    content: "Mein Zeitbudget ist sehr beschränkt. Ich leiste meinen Beitrag über regelmässige Spenden, damit verletzte Igel medizinisch behandelt werden können und genug zu fressen bekommen"
 
   # testimonial item loop
   - name: "Rose Rio"
     image: "images/clients/avater-3.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    designation: "Lebensraum-Verbesserin"
+    content: "Ich benutze keine Pestizide im Garten und schaffe aktiv Lebensraum mit einer naturnahen Gestaltung. Ausserdem habe ich zwei bewohnte Igelhäuser!"
 
 
 ---
