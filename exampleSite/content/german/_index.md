@@ -20,7 +20,7 @@ about:
   image: "images/wrapper-img.png"
 
 
-######################### Portfolio ###############################
+######################### Helfer ###############################
 portfolio:
   enable: true
   bg_image: "images/helfer-bg.png"
@@ -42,6 +42,31 @@ Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
     enable: true
     label: "Weitere Infos"
     link: "project"
+
+
+######################### Spenden ###############################
+portfolio:
+  enable: true
+  bg_image: "images/spenden-bg.png"
+  title: "Helfer werden!"
+  content: " Wir suchen Helfer für die grösste Igelstation der Schweiz: füttern, shoppen geben, misten!
+
+• Keine Vorkenntnisse nötig
+• Wir arbeiten Hand in Hand, ehrenamtlich
+• Dein Einsatz ist flexibel planbar (vormittags auch Wochenende) 
+• Regelmässige Einsätze sind erwünscht
+• Dein Lohn ist die Rettung vieler Igel
+
+Hast Du im Haus oder im Gartenhaus Platz für einen Igel? 
+Wir suchen immer wieder Winterquartiere für notleidende Igel!
+
+Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
+  "
+  button:
+    enable: true
+    label: "Weitere Infos"
+    link: "project"
+
 
 
 ############################# Service ############################
