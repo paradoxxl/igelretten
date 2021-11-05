@@ -11,23 +11,12 @@ banner:
     label: "Discover Our Project"
     link: "project"
 
-############################# About #################################
+############################# Helfer #################################
 about:
   enable: true
-  title: "About Us"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  image: "images/wrapper-img.png"
-
-
-######################### Helfer ###############################
-portfolio:
-  enable: true
-  bg_image: "images/helfer-bg.png"
   title: "Helfer werden!"
-  content: " Wir suchen Helfer für die grösste Igelstation der Schweiz: füttern, shoppen geben, misten!
-
-• Keine Vorkenntnisse nötig
+  description: "Wir suchen Helfer für die grösste Igelstation der Schweiz: füttern, shoppen geben, misten!"
+  content: "• Keine Vorkenntnisse nötig
 • Wir arbeiten Hand in Hand, ehrenamtlich
 • Dein Einsatz ist flexibel planbar (vormittags auch Wochenende) 
 • Regelmässige Einsätze sind erwünscht
@@ -38,10 +27,12 @@ Wir suchen immer wieder Winterquartiere für notleidende Igel!
 
 Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
   "
+  image: "images/wrapper-img.png"
   button:
     enable: true
     label: "Weitere Infos"
     link: "project"
+
 
 
 ######################### Spenden ###############################
