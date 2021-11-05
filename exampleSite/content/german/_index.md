@@ -21,7 +21,7 @@ about:
 
 
 ######################### Helfer ###############################
-aid:
+portfolio:
   enable: true
   bg_image: "images/helfer-bg.png"
   title: "Helfer werden!"
@@ -45,7 +45,7 @@ Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
 
 
 ######################### Spenden ###############################
-fund:
+portfolio:
   enable: true
   bg_image: "images/spenden-bg.png"
   title: "Spenden"
