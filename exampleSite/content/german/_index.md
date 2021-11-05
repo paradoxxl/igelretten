@@ -34,14 +34,13 @@ Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
     link: "project"
 
 
-
-######################### Spenden ###############################
-portfolio:
+######################### Helfer ###############################
+volunteer:
   enable: true
-  bg_image: "images/spenden-bg.png"
-  title: "Spenden"
+  bg_image: "images/volunteer-bg.png"
+  title: "Helfer werden!"
   content: " Wir suchen Helfer für die grösste Igelstation der Schweiz: füttern, shoppen geben, misten!
-
+<br>
 • Keine Vorkenntnisse nötig
 • Wir arbeiten Hand in Hand, ehrenamtlich
 • Dein Einsatz ist flexibel planbar (vormittags auch Wochenende) 
@@ -55,7 +54,24 @@ Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
   "
   button:
     enable: true
-    label: "Weitere Infos"
+    label: "Ich möchte helfen!"
+    link: "project"
+
+
+
+######################### Spenden ###############################
+donate:
+  enable: true
+  bg_image: "images/spenden-bg.png"
+  title: "Spenden"
+  content: "<p>Du hast zu wenig Zeit um vorort zu helfen? Mit einer Spende kannst du uns auch unterstützen!</p>
+  Die Rettung von Igeln braucht in erster Linie viele Helfer, die ehrenamtlich arbeiten. 
+  Das ist aber nur ein Teil der Geschichte. Wir benötigen Medikamente und das richtige Futter, damit wir verletzten 
+  und kranken Igeln helfen können. Mit einer Spende hilfst du uns, ein paar Sorgen bezüglich los zu werden.
+  "
+  button:
+    enable: true
+    label: "Ich möchte spenden!"
     link: "project"
 
 

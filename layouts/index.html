@@ -51,8 +51,8 @@
 {{ end }}
 <!-- /about -->
 
-<!-- portfolio -->
-{{ with .Params.portfolio }}
+<!-- volunteer -->
+{{ with .Params.volunteer }}
 {{ if .enable }}
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL }}')">
   <div class="container">
@@ -71,7 +71,29 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /portfolio -->
+<!-- /volunteer -->
+
+<!-- donate -->
+{{ with .Params.donate }}
+{{ if .enable }}
+<section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL }}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
+        {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        {{ with .button }}
+        {{ if .enable }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /donate -->
 
 <!-- service -->
 {{ if .Params.service.enable }}
