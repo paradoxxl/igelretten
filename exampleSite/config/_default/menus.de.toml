@@ -3,11 +3,11 @@ name = "Über uns"
 url = "about/"
 weight = 2
 [[footer]]
-name = "Projekt"
+name = "Helfer werden"
 url = "project/"
 weight = 3
 [[footer]]
-name = "Dienstleistung"
+name = "Spenden"
 url = "service/"
 weight = 4
 [[footer]]
@@ -31,27 +31,16 @@ name = "Über uns"
 url = "about/"
 weight = 2
 [[main]]
-name = "Projekt"
+name = "Helfer werden"
 url = "project/"
 weight = 3
-[[main]]
-name = "Blog"
-url = "blog/"
+name = "Helfer werden"
+url = "project/"
 weight = 4
 [[main]]
-hasChildren = true
-name = "Mehr"
+name = "Artikel"
+url = "blog/"
 weight = 5
-[[main]]
-name = "Dienstleistung"
-parent = "Mehr"
-url = "service/"
-weight = 1
-[[main]]
-name = "Preise"
-parent = "Mehr"
-url = "pricing/"
-weight = 2
 [[main]]
 name = "Kontakt"
 url = "contact/"
