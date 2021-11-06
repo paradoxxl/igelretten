@@ -67,6 +67,8 @@ donate:
   Das ist aber nur ein Teil der Geschichte. Wir benötigen Medikamente und das richtige Futter, damit wir verletzten 
   und kranken Igeln helfen können. Mit einer Spende hilfst du uns, ein paar Sorgen bezüglich los zu werden.
   <br>
+  <br>
+  <br>
   "
   button:
     enable: true
