@@ -22,6 +22,7 @@ weight = 6
 name = "Kontakt"
 url = "contact/"
 weight = 7
+
 [[main]]
 name = "Startseite"
 url = ""
@@ -32,10 +33,10 @@ url = "about/"
 weight = 2
 [[main]]
 name = "Helfer werden"
-url = "project/"
+url = "volunteer/"
 weight = 3
 name = "Spenden"
-url = "project/"
+url = "donate/"
 weight = 4
 [[main]]
 name = "Artikel"

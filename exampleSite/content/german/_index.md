@@ -77,7 +77,7 @@ donate:
 
   sponsorship:
     enable: true
-    label: "Ich möchte Pate werden"
+    label: "Ich möchte Pate werden!"
     link: "project"
 
 
