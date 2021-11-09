@@ -1,48 +1,66 @@
+[[main]]
+name = "Startseite"
+url = ""
+weight = 1
+
+[[main]]
+name = "Über uns"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Helfer werden"
+url = "volunteer/"
+weight = 3
+
+[[main]]
+name = "Spenden"
+url = "donate/"
+weight = 4
+
+[[main]]
+name = "Artikel"
+url = "blog/"
+weight = 5
+
+[[main]]
+name = "Kontakt"
+url = "contact/"
+weight = 6
+
+
+
 [[footer]]
 name = "Über uns"
 url = "about/"
 weight = 2
+
 [[footer]]
 name = "Helfer werden"
-url = "project/"
+url = "volunteer/"
 weight = 3
+
 [[footer]]
 name = "Spenden"
-url = "service/"
+url = "donate/"
 weight = 4
+
 [[footer]]
 name = "Preise"
 url = "pricing/"
 weight = 5
+
 [[footer]]
 name = "Häufige Fragen"
 url = "faq/"
 weight = 6
+
 [[footer]]
 name = "Kontakt"
 url = "contact/"
 weight = 7
 
-[[main]]
-name = "Startseite"
-url = ""
-weight = 1
-[[main]]
-name = "Über uns"
-url = "about/"
-weight = 2
-[[main]]
-name = "Helfer werden"
-url = "volunteer/"
-weight = 3
-name = "Spenden"
-url = "donate/"
-weight = 4
-[[main]]
-name = "Artikel"
-url = "blog/"
-weight = 5
-[[main]]
-name = "Kontakt"
-url = "contact/"
-weight = 6
+[[footer]]
+name = "service example"
+url = "service/"
+weight = 8
