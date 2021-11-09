@@ -40,6 +40,7 @@
         </div>
         {{ with .button }}
         {{ if .enable }}
+        <br/>
         <a href="{{ .link | relLangURL }}" class="btn btn-view-dark">{{ .label }}</a>
         {{ end }}
         {{ end }}
