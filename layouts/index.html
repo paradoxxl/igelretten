@@ -37,14 +37,13 @@
             {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
           {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-          {{ with .button }}
+        </div>
+      </div>
+      {{ with .button }}
           {{ if .enable }}
-          <br/>
           <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
           {{ end }}
           {{ end }}
-        </div>
-      </div>
       <div class="col-md-5 col-sm-12">
         <div class="block">
           <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
