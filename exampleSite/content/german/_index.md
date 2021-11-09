@@ -23,11 +23,11 @@ about:
     <li>Kontakt: 079 740 26 31</li>
   </ul>
   "
-  image: "images/wrapper-img.png"
+  image: "images/station.jpeg"
   button:
     enable: true
-    label: "Welche Igel brauchen Hilfe?"
-    link: "project"
+    label: "Über uns"
+    link: "about"
 
 
 ######################### Helfer ###############################
