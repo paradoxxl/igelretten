@@ -23,7 +23,7 @@ about:
     <li>Kontakt: 079 740 26 31</li>
   </ul>
   "
-  image: "images/station.jpeg"
+  image: "images/company/station.jpeg"
   button:
     enable: true
     label: "Über uns"
