@@ -87,6 +87,11 @@
         <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
         {{ end }}
         {{ end }}
+        {{ with .sponsorship }}
+        {{ if .enable }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>

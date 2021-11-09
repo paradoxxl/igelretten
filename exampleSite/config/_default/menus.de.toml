@@ -34,7 +34,7 @@ weight = 2
 name = "Helfer werden"
 url = "project/"
 weight = 3
-name = "Helfer werden"
+name = "Spenden"
 url = "project/"
 weight = 4
 [[main]]
