@@ -10,12 +10,12 @@ weight = 2
 
 [[main]]
 name = "Helfer werden"
-url = "volunteer/"
+url = "helfer/"
 weight = 3
 
 [[main]]
 name = "Spenden"
-url = "donate/"
+url = "spenden/"
 weight = 4
 
 [[main]]
@@ -37,12 +37,12 @@ weight = 2
 
 [[footer]]
 name = "Helfer werden"
-url = "volunteer/"
+url = "helfer/"
 weight = 3
 
 [[footer]]
 name = "Spenden"
-url = "donate/"
+url = "spenden/"
 weight = 4
 
 [[footer]]
