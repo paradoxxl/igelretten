@@ -2,7 +2,7 @@
 <title>{{.Title | default site.Title}}</title>
 
 <!-- base url -->
-{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
+{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://site.org/") (eq site.BaseURL "https://site.org/") (eq site.BaseURL "http://site.com/") (eq site.BaseURL "https://site.com/")}}{{else}}
 <base href="{{ .Permalink }}">
 {{ end }}
 

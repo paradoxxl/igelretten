@@ -102,8 +102,8 @@ cta:
 ############################# Funfacts ###############################
 funfacts:
   enable: true
-  title: "Fakten über uns und Igel"
-  description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  title: "Fakten über uns"
+  description: "'Lerne etwas über unsere Igelstation und unsere Schützline'"
   funfact_item:
   # funfacts item loop
   - icon: "fas fa-glass-cheers" #https://fontawesome.com/v5.15/icons
