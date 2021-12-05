@@ -7,7 +7,7 @@ email = "demo@email.com"
 favicon = "images/favicon.png"
 google_tag_manager = ""
 image = "images/logo.png"
-location = "**Igelstation Oberentfelden**  \n5036 Oberentfelden  \nnahe der Tietklinik Aarau West \nasdf\ndd\nddd"
+location = "**Igelstation Oberentfelden**  \n5036 Oberentfelden  \nnahe der Tietklinik Aarau West"
 logo = "images/logo.png"
 logo_text = "Airspace"
 logo_width = "150px"
@@ -23,7 +23,7 @@ action = "#"
 enable = false
 success_image = "images/paper-plane.svg"
 use_netlify = true
-use_recaptcha = true
+use_recaptcha = false
 [cookies]
 button = "I Accept"
 content = "This site uses cookies. By continuing to use this website, you agree to their use."

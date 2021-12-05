@@ -81,6 +81,71 @@ donate:
     link: "project"
 
 
+######################### Das wichtigste zu Igeln ###############################
+tldr:
+  enable: true
+  bg_image: "images/tldr-bg.jpg"
+  title: "Die wichtigsten Informationen auf einen Blick"
+
+
+  tldr_table:
+  # pricing table loop
+  - name : "Fütterung"
+    content : "1/3 getrocknete Mehlwürmer<br>2/3 trockenes Katzenfutter (kein Nassfutter)"
+    link : "#"
+    services:
+    - "In eine flache Schale geben"
+    - "Frisches Wasser"
+    - "Nur nachts füttern"
+    - "Keine Milch"
+
+  # pricing table loop
+  - name : "Bitte keine Igel am Tag füttern!"
+    content : "Bei der Fütterung am Tag wechselt der Igel seinen
+Rhythmus und ist den Fliegen ausgeliefert, diese
+legen Eier am Igel, die Maden schlüpfen innert
+24 Stunden und fressen die Igel von innen aus."
+    link : "#"
+    services:
+
+  - name : "Rette Leben!"
+    content : ""
+    link : "#"
+    services:
+    - "Keine Schneckenkörner streuen"
+    - "Keine Netze, offene Teiche oder Pools"
+    - "Vorsicht beim Wenden von Komposthaufen (keine Kompostgabeln verwenden!)"
+    - "Suche das Gebüsch vor dem Mähen ab"
+    - "Nur Rasenroboter mit Sensor einsetzen"
+
+  - name : "Wann muss ein Igel in Behandlung?"
+    content : ""
+    link : "#"
+    services:
+    - "Verletzte Igel"
+    - "Am Tag gesichtete Igel"
+    - "Junge Igel ohne Mutter"
+    - "Igel, die an der prallen Sonne liegen"
+    - "Hustende Igel"
+    - "Igel, die im Herbst/Winter weniger als 800g wiegen"
+    - "Von Fliegen oder Parasiten befallene Igel"
+  
+  - name : "Hilfbedürftigen Igel gefunden?"
+    content : "Packe den Igel in eine Schachtel mit Luftlöchern.
+  Wasser und Futter geben und umgehend anrufen,
+  nicht einige Tage warten! Igel immer mit Handschuhen
+  anfassen. Nie einen Igel mit Nest stören, die Mutter
+  verlässt ihre Jungen umgehend oder tötet sie."
+    link : "#"
+    services:
+
+  button:
+    enable: false
+    label: "Ich möchte spenden!"
+    link: "flyer"
+
+
+
 
 ############################# Service ############################
 service:

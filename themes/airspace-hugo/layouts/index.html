@@ -106,6 +106,49 @@
 {{ end }}
 <!-- /donate -->
 
+<!-- tldr -->
+{{ with .Params.tldr }}
+{{ if .enable }}
+<section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL }}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
+        {{ with .button }}
+        {{ if .enable }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="pricing-table">
+      <div class="row">
+        <!-- single pricing table -->
+        {{ range .tldr_table }}
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="pricing-item text-center">
+            <div class="price-title">
+              {{ with .name }}<h3>{{ . | markdownify }}</h3>{{ end }}
+              {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+            </div>
+            <ul>
+              {{ range .services }}
+              <li>{{ . | markdownify }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+        <!-- end single pricing table -->
+      </div>
+    </div>
+    
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /tldr -->
+
 <!-- service -->
 {{ if .Params.service.enable }}
 {{ partial "service.html" . }}
