@@ -1,25 +1,26 @@
 address_descriptors = false
 author = "Dominik"
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Angepasstes Design von [Themefisher](https://themefisher.com/) &  [Gethugothemes](https://gethugothemes.com/)"
 custom_script = ""
 description = "This is meta description"
 email = "demo@email.com"
 favicon = "images/favicon.png"
 google_tag_manager = ""
 image = "images/logo.png"
-location = "**Themefisher**  \nNorth Main Street  \nBrooklyn, New South Wales  \nAustralia\n"
+location = "**Igelstation Oberentfelden**  \n5036 Oberentfelden  \nnahe der Tietklinik Aarau West \nasdf\ndd\nddd"
 logo = "images/logo.png"
 logo_text = "Airspace"
 logo_width = "150px"
 navbar_fixed = false
-phone = "0124857985320"
+phone = "079 740 26 31"
+owner = "Danielle Lenzin"
 recaptcha_site_key = "xxx-xxxxxxxxxxxxxxxxxxxxxxxx"
 [baidu]
 analytics_id = ""
 enable = false
 [contact.form]
 action = "#"
-enable = true
+enable = false
 success_image = "images/paper-plane.svg"
 use_netlify = true
 use_recaptcha = true
@@ -33,9 +34,9 @@ enable = false
 username = ""
 [gmap]
 enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "AIzaSyBbdfu6PjwqvSIrRoMK4Ve3IEz08i5Q2BA"
+map_latitude = "47.3481825036509"
+map_longitude = "8.049746190256426"
 map_marker = "images/marker.png"
 [matomo]
 enable = false
@@ -61,19 +62,19 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 icon = "fab fa-facebook"
 link = "https://www.facebook.com/Igel-retten-100884365735686"
 title = "facebook"
-[[social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
-[[social]]
-icon = "fab fa-instagram"
-link = "#"
-title = "instagram"
-[[social]]
-icon = "fab fa-github"
-link = "#"
-title = "github"
-[[social]]
-icon = "fab fa-linkedin"
-link = "#"
-title = "linkedin"
+# [[social]]
+# icon = "fab fa-twitter"
+# link = "#"
+# title = "twitter"
+# [[social]]
+# icon = "fab fa-instagram"
+# link = "#"
+# title = "instagram"
+# [[social]]
+# icon = "fab fa-github"
+# link = "#"
+# title = "github"
+# [[social]]
+# icon = "fab fa-linkedin"
+# link = "#"
+# title = "linkedin"

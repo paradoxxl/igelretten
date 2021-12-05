@@ -1,32 +1,27 @@
 [[main]]
-name = "Startseite"
-url = ""
-weight = 1
-
-[[main]]
 name = "Über uns"
 url = "about/"
-weight = 2
+weight = 1
 
 [[main]]
 name = "Helfer werden"
 url = "helfer/"
-weight = 3
+weight = 2
 
 [[main]]
 name = "Spenden"
 url = "spenden/"
-weight = 4
+weight = 3
 
 [[main]]
-name = "Artikel"
+name = "Blog"
 url = "blog/"
-weight = 5
+weight = 4
 
 [[main]]
 name = "Kontakt"
 url = "contact/"
-weight = 6
+weight = 5
 
 
 
@@ -46,21 +41,11 @@ url = "spenden/"
 weight = 4
 
 [[footer]]
-name = "Preise"
-url = "pricing/"
+name = "Blog"
+url = "blog/"
 weight = 5
-
-[[footer]]
-name = "Häufige Fragen"
-url = "faq/"
-weight = 6
 
 [[footer]]
 name = "Kontakt"
 url = "contact/"
 weight = 7
-
-[[footer]]
-name = "service example"
-url = "service/"
-weight = 8

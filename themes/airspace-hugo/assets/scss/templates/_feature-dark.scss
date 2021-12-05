@@ -1,4 +1,4 @@
-.feature {
+.feature-dark {
   background: url("../img/feature-bg.jpg");
   background-position: 50% 94px;
   display: block;
@@ -8,7 +8,7 @@
   background-position: center center;
   background-size: cover;
   padding: 100px 0;
-  color: darken( $light, 90);
+  color: lighten( $light, 41.37);
 
   @include large-desktop {
     padding-top: 20px;
@@ -20,11 +20,12 @@
     margin: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: lighten( $light, 41.37);
   }
 
   p {
+    color: lighten( $light, 41.37);
     margin-bottom: 20px;
-    color: darken( $light, 90);
   }
 
   ul {

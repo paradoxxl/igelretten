@@ -53,7 +53,8 @@
           <ul class="address-block">
             {{ $add_address_descriptors := .address_descriptors }}
             {{ with site.Params.location }}<li><i class="fas fa-map-marker-alt"></i>{{ if $add_address_descriptors }}{{ i18n "location" | printf "%s: " }}{{ end }}<div>{{ . | markdownify }}</div></li>{{ end }}
-            {{ with site.Params.email }}<li><i class="fas fa-envelope"></i>{{ if $add_address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" . }}</li>{{ end }}
+            {{/*  {{ with site.Params.email }}<li><i class="fas fa-envelope"></i>{{ if $add_address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" . }}</li>{{ end }}  */}}
+            {{ with site.Params.owner }}<li><i class="fas fa-user"></i>{{ if $add_address_descriptors }}{{ i18n "owner" | printf "%s: " }}{{ end }}{{ . }}</li>{{ end }}
             {{ with site.Params.phone }}<li><i class="fas fa-tty"></i>{{ if $add_address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ . }}</li>{{ end }}
           </ul>
           <ul class="social-icons">
