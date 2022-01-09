@@ -53,7 +53,7 @@ Bitte meldet euch telefonisch oder per WhatsApp bei Danielle: 079 740 26 31
   button:
     enable: true
     label: "Ich möchte helfen!"
-    link: "project"
+    link: "helfer"
 
 
 
@@ -73,12 +73,12 @@ donate:
   button:
     enable: true
     label: "Ich möchte spenden!"
-    link: "project"
+    link: "spenden"
 
   sponsorship:
     enable: false
     label: "Ich möchte Pate werden!"
-    link: "project"
+    link: "spenden"
 
 
 ######################### Das wichtigste zu Igeln ###############################
