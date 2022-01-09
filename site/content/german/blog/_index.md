@@ -2,5 +2,5 @@
 title: "Blog"
 description: "Wissenswertes und Neuigkeiten"
 draft: false
-bg_image: "images/feature-bg.jpg"
+bg_image: "images/blog-bg.jpg"
 ---
