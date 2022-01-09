@@ -18,7 +18,7 @@ Spende kannst du uns helfen, dass wir uns nicht konstant Sorgen um die Finanzier
 
 Unsere Bankverbindung:
 
-* IBAN CH66 0630 0016 1015 5351
+* IBAN CH66 0630 0016 1015 5351 0
 * Valiant Bank, 3001 bern
 * PC 30-38112-0
 * Igelpflegestation
@@ -28,5 +28,5 @@ Unsere Bankverbindung:
 
 
 ### Andere Spenden-Methoden
-Wir bemühen uns, möglichst bald aktuelle Methoden wie Twint anzubieten. Bis dahin freuen wir uns auf Spenden über
+Wir möchten möglichst bald aktuelle Methoden wie Twint anbieten. Bis dahin freuen wir uns auf deine Spende über
 eine Bank-Einzahlung.
