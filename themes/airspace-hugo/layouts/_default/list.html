@@ -34,7 +34,8 @@
             </ul>
           </div>
           <div class="post-content">
-            <p>{{ .Summary }}</p>
+            <!-- <p>{{ .Summary }}</p> -->
+            <p>{{ .Summary | truncate 50 }}</p>
             <a href="{{ .RelPermalink }}" class="btn btn-main">{{ i18n "read_more" }}</a>
           </div>
         </div>
